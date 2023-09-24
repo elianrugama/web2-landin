@@ -17,6 +17,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #hero {
@@ -316,10 +317,9 @@ header {
 #plan{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     text-align: center;
-
+    margin: 20rem;
 }
 .planCol2{
     border-radius: 4rem;
@@ -348,4 +348,68 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 5rem;
+}
+#testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+}
+#divtestimony{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    
+    margin: 4rem;
+    box-shadow: 0 0 20px rgba(20, 20, 20, 0.2);
+    border-radius: 4rem;
+    padding: 4%;
+}
+#cuadrotestimony{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4rem;
+    padding-left: 0%;
+    padding-right: 3%;
+    box-shadow: 0 0 20px rgba(20, 20, 20, 0.2);
+    width: 350px; height: 50px;
+    margin: 0%;
+}
+.iconoTestimony2{
+    margin: 0%;
+}
+.testimoiny3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+    border: 3px solid #FF006E;
+    border-radius: 2rem;
+    padding: 3%;
+
+    
+}
+.testimoiny2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+    
+    border-radius: 2rem;
+    padding: 3%;
+
+    
+}
+footer{
+    background-image: url(../images/testimony/Rectangle\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    height: 70vh;
+
 }
